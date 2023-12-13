@@ -1,0 +1,11 @@
+// Importez les styles de base si nécessaire
+@import "base/_normalize";
+@import "base/_reset";
+
+// Importez les composants
+@import "components/_buttons";
+@import "components/_cards";
+
+// Importez les utilitaires
+@import "utilities/_spacing";
+@import "utilities/_colors";

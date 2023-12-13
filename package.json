@@ -1,0 +1,24 @@
+{
+  "name": "fluffy-ui-scss",
+  "version": "1.0.0",
+  "description": "Fluffy UI Sass - Une Bibliothèque UI Sass inspirée du froid polaire, douce et élégante",
+  "main": "dist/fluffy-ui-sass.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass src/fluffy-ui.scss dist/fluffy-ui.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hadevv/fluffy-ui-scss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hadevv/fluffy-ui-scss/issues"
+  },
+  "homepage": "https://github.com/Hadevv/fluffy-ui-scss#readme",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

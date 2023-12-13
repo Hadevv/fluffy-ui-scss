@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.button, .button-primary, .button-secondary {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold; }
+
+.button-primary {
+  background-color: #ffffff;
+  color: #3498db; }
+  .button-primary:hover {
+    background-color: #ecf0f1; }
+
+.button-secondary {
+  background-color: #ecf0f1;
+  color: #3498db; }
+  .button-secondary:hover {
+    background-color: #ffffff; }
+
+.card {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  transition: box-shadow 0.3s ease; }
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); }
+
+.margin-top {
+  margin-top: 1rem; }
+
+.margin-bottom {
+  margin-bottom: 1rem; }
+
+.padding-small {
+  padding: 0.5rem; }
+
+.padding-large {
+  padding: 1rem; }
+
+body {
+  background-color: #3498db; }
+
+.button, .button-primary, .button-secondary {
+  background-color: #2ecc71;
+  color: #fff; }
+
+.card {
+  border: 1px solid #e74c3c; }

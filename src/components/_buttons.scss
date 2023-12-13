@@ -1,0 +1,33 @@
+// _buttons.scss
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .button-primary {
+    @extend .button;
+    background-color: #ffffff; // Blanc pur
+    color: #3498db; // Bleu clair
+  
+    &:hover {
+      background-color: #ecf0f1; // Gris très clair (effet de survol)
+    }
+  }
+  
+  .button-secondary {
+    @extend .button;
+    background-color: #ecf0f1; // Gris très clair
+    color: #3498db;
+  
+    &:hover {
+      background-color: #ffffff; // Blanc pur (effet de survol)
+    }
+  }
+  

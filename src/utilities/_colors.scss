@@ -1,0 +1,22 @@
+// _colors.scss
+
+// Define color variables
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$accent-color: #e74c3c;
+
+// Use color variables throughout your styles
+body {
+  background-color: $primary-color;
+}
+
+.button {
+  background-color: $secondary-color;
+  color: #fff;
+}
+
+.card {
+  border: 1px solid $accent-color;
+}
+
+// Add more color definitions and usages as needed
