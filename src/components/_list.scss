@@ -1,0 +1,22 @@
+.list {
+    list-style: none;
+    padding: 0;
+  
+    li {
+      margin-bottom: 10px;
+  
+      &:last-child {
+        margin-bottom: 0;
+      }
+  
+      a {
+        text-decoration: none;
+        color: #3498db;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  
