@@ -1,0 +1,38 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+  
+    button {
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #fff;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+  
+      a {
+        color: #333;
+        padding: 10px;
+        display: block;
+        text-decoration: none;
+  
+        &:hover {
+          background-color: #f9f9f9;
+        }
+      }
+    }
+  
+    &:hover .dropdown-content {
+      display: block;
+    }
+  }
+  
+  

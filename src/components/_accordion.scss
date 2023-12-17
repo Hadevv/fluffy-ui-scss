@@ -1,0 +1,28 @@
+.accordion {
+    display: flex;
+    flex-direction: column;
+  
+    .section {
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      overflow: hidden;
+  
+      .header {
+        background-color: #3498db;
+        color: #fff;
+        padding: 10px;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: #2980b9;
+        }
+      }
+  
+      .content {
+        padding: 10px;
+        display: none;
+      }
+    }
+  }
+  
